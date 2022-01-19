@@ -1,0 +1,12 @@
+{
+  "name": "@i/a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tsc --noEmit -p ./tsconfig-lint.json"
+  },
+  "devDependencies": {
+    "typescript": "4.5.4"
+  }
+}

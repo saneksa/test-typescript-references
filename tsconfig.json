@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig-base.json",
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": false
+  },
+  "references": [
+    {
+      "path": "packages/a"
+    },
+    {
+      "path": "packages/b"
+    },
+    {
+      "path": "packages/c"
+    }
+  ]
+}
